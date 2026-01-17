@@ -20,3 +20,23 @@
 - Сторонние библиотеки не используются
 
 ---
+🚀 Установка
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/lisasuppp/habit-tracker.git
+cd habit-tracker
+
+2. Создайте виртуальное окружение:
+
+python -m venv .venv
+source .venv/bin/activate  # для macOS/Linux
+# или .venv\Scripts\activate для Windows
+
+3. Установите зависимости (если потребуется):
+
+pip install -r requirements.txt
+
+Запуск:
+
+python main.py
